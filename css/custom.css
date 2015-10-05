@@ -1,0 +1,36 @@
+nav{
+    background-image:url('../img/default.png');
+    
+}
+
+body{
+    padding-top: 80px;
+    background-image: url('../img/nyitback4.jpg');
+    background-color:#ffcc00;       /*#222;*/
+}
+table{
+    width:100%;
+    background-color: #F9F9F9;
+}
+
+th, td{
+    padding:10px;
+}
+td[colspan='5']{
+    text-align: center;
+}
+#apology{
+    text-align:center;
+}
+.col-xs-12{
+    text-align: center;
+}
+.messages{
+    color: white;
+}
+h4{
+    color: white;
+}
+@media (max-width: 768px) {
+    body{ background-image:url('../img/nyitback1.jpg')}
+}
